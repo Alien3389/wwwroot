@@ -1,0 +1,6 @@
+body{background: #ddd;}
+.login-box{width: 400px;background: #FFF;margin: 0 auto;margin-top: 10%;}
+.white-box{padding: 15px;}
+.white-box h4{margin: 0 0 15px 0;}
+.white-box form{overflow: hidden;}
+.white-box .form-control{padding: 20px 12px;}
