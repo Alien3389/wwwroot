@@ -14,7 +14,7 @@
 	   <div class="logo">
 	      <a href="#">W3Cschool</a>
 	   </div>
-		<div id="left_nav">
+		<div class="left_nav">
 			<ul class="nav navbar-nav">
 	        	<li class="dropdown">
 		            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -189,26 +189,34 @@
 		</div>
 	</nav>
 	<!--END左侧导航-->
-	<div class="right">
+	<div class="right" id="page-wrapper">
 		<!--头部-->
-		<div class="top">
+		<div class="top navbar-fixed-top">
 			<div class=""></div>
 		</div>
 		<!--END头部-->
+		<!--内容-->
+		<div class="content-main">
+			<iframe id="iframeId" width="100%" height="100%" src="login.html" frameborder="0" seamless></iframe>
+		</div>
+		<!--END内容-->
 		<!--版权-->
 		<div class="footer navbar-fixed-bottom">
-			<div class="pull-right">&copy; 2014-2017 <a href="#" target="_blank">zihan's blog</a></div>
+			<div class="pull-right">&copy; 2014-2017 <a href="#" target="_blank">Copyright</a></div>
 		</div>
 	    <!--END版权-->
     </div>
 </div>
+<script>
 
+</script>
 	<script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
 	<script src="http://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="dist/js/jquery.slimscroll.min.js"></script>
+	<script src="dist/js/index.js"></script>
 	<link href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <script>
-	$('#left_nav').slimscroll({
+	$('.left_nav').slimscroll({
 		height: '100%'
 	});
 </script>
